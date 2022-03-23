@@ -32,9 +32,13 @@
     let machineResult;
     let pwdResult;
 
-    // Add your code here
-
-    // Don't edit the code below here!
+    if(machineActive){
+      machineResult = 'on';
+     (pwdResult = pwd === 'cheese') ? 'login successfully' : 'login attempt was not successful';
+    }
+    else {
+      machineResult = 'off';
+    }
 
     const section = document.querySelector('section');
 

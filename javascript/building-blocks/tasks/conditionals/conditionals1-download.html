@@ -27,9 +27,25 @@
     let season = 'summer';
     let response;
 
-    // Add your code here
+  if(season = 'summer'){
+  response = console.log("Go out to the beach, it's summer");
+}
 
-    // Don't edit the code below here!
+  else if(season = 'winter'){
+  response = console.log("Lets make a snowman")
+}
+
+  else { 
+  response = console.log("I don't know what season is");
+}
+
+
+// Don't edit the code below here!
+
+section.innerHTML = ' ';
+let para1 = document.createElement('p');
+para1.textContent = response;
+section.appendChild(para1);
 
     const section = document.querySelector('section');
 
